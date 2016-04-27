@@ -66,7 +66,7 @@ if __name__ == '__main__':
 Next, we edit the cron jobs by:
 
 ```sh
-crontab -e
+$ crontab -e
 ```
 
 Adding following line to enable the cronjob run every 15 minutes and record the stdout:
