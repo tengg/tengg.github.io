@@ -65,7 +65,7 @@ if __name__ == '__main__':
 
 Next, we edit the cron jobs by:
 
-```shell
+```sh
 crontab -e
 ```
 
