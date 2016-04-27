@@ -7,7 +7,7 @@ permalink: none
 title:               GT
 tagline:             'Pure technical'
 description:         'Keep simple. Hosted by <a href="https://ca.linkedin.com/in/tengg
-" target="_blank">Teng</a>'
+" target="_blank">Teng<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" style="display: inline; margin: 2px;"></a>'
 url:                 http://geteng.xyz
 baseurl:             ''
 paginate:            5
