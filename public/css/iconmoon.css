@@ -118,6 +118,9 @@ i.iconside {
 .iconm-wordpress:before {
     content: "\eab6";
 }
+.iconm-linkedin:before {
+    content: "\eac8";
+}
 .iconm-linkedin2:before {
     content: "\eac9";
 }
