@@ -4,18 +4,19 @@
 permalink: none
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               GT
+tagline:             'Pure technical'
+description:         'Keep simple. Hosted by <a href="https://ca.linkedin.com/in/teng-ge-5753492a
+" target="_blank">@Teng</a>.'
 url:                 http://geteng.xyz
 baseurl:             ''
 paginate:            5
+excerpt_separator: <!--more-->
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              GT
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             md5sum@icloud.com
 
-# Custom vars
 version:             1.0.0
