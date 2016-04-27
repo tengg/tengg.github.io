@@ -6,17 +6,17 @@ permalink: none
 # Setup
 title:               GT
 tagline:             'Pure technical'
-description:         'Keep simple. Hosted by <a href="https://ca.linkedin.com/in/teng-ge-5753492a
-" target="_blank">@Teng</a>.'
+description:         'Keep simple. Hosted by <a href="https://ca.linkedin.com/in/tengg
+" target="_blank">Teng</a>'
 url:                 http://geteng.xyz
 baseurl:             ''
 paginate:            5
-excerpt_separator: <!--more-->
+excerpt_separator:   <!--more-->
 
 # About/contact
 author:
-  name:              GT
-  url:               https://twitter.com/mdo
+  name:              GeTeng
+  url:               http://geteng.xyz
   email:             md5sum@icloud.com
 
 version:             1.0.0
