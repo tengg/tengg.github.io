@@ -5,9 +5,8 @@ permalink: none
 
 # Setup
 title:               GT
-tagline:             'Pure technical'
-description:         'Keep simple. Hosted by <a href="https://ca.linkedin.com/in/tengg
-" target="_blank">Teng<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" style="display: inline; margin: 2px;"></a>'
+tagline:             'Pure Technical'
+description:         'Keep simple.'
 url:                 http://geteng.xyz
 baseurl:             ''
 paginate:            5
@@ -20,3 +19,8 @@ author:
   email:             md5sum@icloud.com
 
 version:             1.0.0
+github:
+  repo:              https://github.com/tengg/tengg.github.io
+
+gems:
+  - jekyll-sitemap
