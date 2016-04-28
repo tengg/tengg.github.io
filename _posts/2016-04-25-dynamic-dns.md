@@ -25,11 +25,11 @@ I recently registered this domain name on namecheap.com, who provides a fairly e
 > If you want to update an IP address for  domain (e.g. home.yourdomain.tld), then you should specify the following details:
 >
 > **Host** = home
-> 
+>
 > **Domain Name**= yourdomain.tld
 >
 > **Dynamic DNS Password** = Domain List >> click Manage next to the domain >>Advanced DNS tab >> Dynamic DNS. If it is not enabled, enable it to check the password.
-> 
+>
 > **IP Address**= an optional value. If you don't specify any IP, the IP from which you are accessing this URL will be set for the domain.
 >
 > NOTE: The values for host name and domain must be in lower case. Please make sure your are using your Dynamic DNS password but not the Namecheap account's one.
@@ -42,8 +42,9 @@ I recently registered this domain name on namecheap.com, who provides a fairly e
 Based on these information, we can write a script to update the dynamic DNS entry, and put it into crontab for a scheduled execution.
 
 ```python
-#This is ddns.py
 #!/usr/bin/env python
+#This is ddns.py
+
 import requests
 import time
 
