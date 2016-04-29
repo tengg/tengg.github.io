@@ -11,6 +11,7 @@ url:                 http://geteng.xyz
 baseurl:             ''
 paginate:            5
 excerpt_separator:   <!--more-->
+markdown:            kramdown
 
 # About/contact
 author:
