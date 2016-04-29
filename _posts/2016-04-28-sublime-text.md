@@ -1,25 +1,15 @@
 ---
 layout: post
-title: Sublime Text 3 Introduction and Customization
+title: Sublime Text 3: Use From Behind a Proxy
 ---
 
-Sublime Text is a perfect editor for code. It is developped in Python, and available for OS X, Linux and Windows.
+The plugin "Package Control" plays the role in Sublime Text as "apt-get" or "yum" in Linux, but it does not come with Sublime Text. We can install it easily by the guide provided by [packagecontrol.io](https://packagecontrol.io/installation).
 
-In this article, I've outlined the features needed to make the most out of using Sublime Text 3. Some advanced customizations are also introduced which saved me a great deal of time every day.
+However, in some certain network environment(e.g. isolated corporate network), accessing everything outside must go though a proxy, and **Sublime Text does not use the OS global network proxy preferences.** People often get connection timeout when installing the package control by the guide.
 
-### Why Sublime Text other than ...?
-
-There are handful of good editors available including the Church of Emacs and Cult of vi. The reason I chose Sublime Text is its smooth learning curve and powerful extensibility.
+Setting up the network proxy inside Sublime Text is outlined in this article.
 
 <!--more-->
-
-### Installation
-
-Installing of the software is presumably known to everyone and hence ignored.
-
-The next step is install "Package Control", which is the first plugin you'll need in Sublime Text. It's like the "apt-get" or "yum" as in Linux that installs every other plugins.
-
-**However, in some certain network environment (e.g. isolated corporate network), http proxy must be configured to install anything from external resources.**
 
 1. Open Sublime Text console. The console is accessed via the ctrl+\` shortcut or the `View > Show Console` menu. Once open, past the following python code into the console. The first one is specify your HTTP proxy. Replace the YOUR_PROXY_URL with actual proxy url.
 
