@@ -10,7 +10,7 @@ In this article, I've outlined the features needed to make the most out of using
 ## Why Sublime Text other than ...?
 
 There are handful of good editors available including the Church of Emacs and Cult of vi. The reason I chose Sublime Text is its smooth learning curve and powerful extensibility.
-
+<!--more-->
 ## Installation
 
 Installing of the software is presumably known to everyone and hence ignored.
