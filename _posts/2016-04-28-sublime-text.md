@@ -7,11 +7,11 @@ Sublime Text is a perfect editor for code. It is developped in Python, and avail
 
 In this article, I've outlined the features needed to make the most out of using Sublime Text 3. Some advanced customizations are also introduced which saved me a great deal of time every day.
 
-## Why Sublime Text other than ...?
+### Why Sublime Text other than ...?
 
 There are handful of good editors available including the Church of Emacs and Cult of vi. The reason I chose Sublime Text is its smooth learning curve and powerful extensibility.
 <!--more-->
-## Installation
+### Installation
 
 Installing of the software is presumably known to everyone and hence ignored.
 
