@@ -5,7 +5,7 @@ title: "Sublime Text 3: Use From Behind a Proxy"
 
 The plugin "Package Control" plays the role in Sublime Text as "apt-get" or "yum" in Linux, but it does not come with Sublime Text. We can install it easily by the guide provided by [packagecontrol.io](https://packagecontrol.io/installation).
 
-However, in some certain network environment(e.g. isolated corporate network), accessing everything outside must go though a proxy, and **Sublime Text does not use the OS global network proxy preferences.** People often get connection timeout when installing the package control by the guide.
+However, in some certain network environment(e.g. isolated corporate network), accessing everything outside must go through a proxy, and **Sublime Text does not use the OS global network proxy preferences.** People often get connection timeout when installing the package control by the guide.
 
 Setting up the network proxy inside Sublime Text is outlined in this article.
 
