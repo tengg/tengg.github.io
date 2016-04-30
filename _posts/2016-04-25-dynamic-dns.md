@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Update Dynamic DNS via Crontab Script
+tags:
+  - Dynamic DNS
+  - Python
 ---
 
 Ok, we have registered a domain name, and we have purchased a VPS to host our server. But why not assigning a subdomain to the computer at home?
