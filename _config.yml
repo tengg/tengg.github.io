@@ -5,7 +5,7 @@ permalink: none
 
 # Setup
 title:               GT
-tagline:             'Talk is cheap. Here's the code.'
+tagline:             'Talk is cheap. Here\'s the code.'
 description:         'Keep simple.'
 url:                 http://geteng.xyz
 baseurl:             ''
