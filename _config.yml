@@ -26,3 +26,5 @@ github:
 gems:
   - jekyll-sitemap
   - kramdown
+
+include: ["pages"]

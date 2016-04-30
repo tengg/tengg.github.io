@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tag Cloud"
-permalink: "/tags/"
+permalink: tags
 description: "Browse website by tag based index"
 comments: false
 sitemap: false
