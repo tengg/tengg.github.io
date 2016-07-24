@@ -14,9 +14,9 @@
   title: Code repository
 
 - name: Contact
-  url: "/contact"
+  url: mailto:t.ge@icloud.com
   class: fa fa-envelope-square
-  title: "Reach Us"
+  title: "Reach Me"
 
 # - name: RSS
 #   url: "/feed.xml"
