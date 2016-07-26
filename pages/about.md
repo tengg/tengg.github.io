@@ -17,6 +17,6 @@ The static part of this site is built based on [Github Pages](https://pages.gith
 ## What if you agree or disagree on what I posted, or want to contact me?
 Upper-right corner on every page in this site: email me.
 
-Or left a comment in this page below. By the way, the comment function are powered by [Disqus](https://disqus.com/), which is awesome!
+Or left a comment in this page below. By the way, the comment function is powered by [Disqus](https://disqus.com/), which is awesome!
 
 {% include disqus.html %}
