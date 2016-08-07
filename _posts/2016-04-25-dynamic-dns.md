@@ -97,4 +97,5 @@ Note the symbols escapes. Backslash('\') must be used to escape the special symb
 Since the root home folder is under /tmp in the router's file system, the crontab will be cleaned every time the router reboots.
 
 Fortunately, there's a system-wide script that runs when wan starts. Adding a command into wan-start script to add the above cron job. In my router, the wan-start script is located at:
+
 > /jffs/scripts/wan-start
