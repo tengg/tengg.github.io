@@ -6,6 +6,8 @@ tags:
   - Python
 ---
 
+> I recently improved the method by moving the task onto the router. Details at the end of this article.
+
 Ok, we have registered a domain name, and we have purchased a VPS to host our server. But why not assigning a subdomain to the computer at home?
 
 
@@ -78,3 +80,21 @@ Adding following line to enable the cronjob run every 15 minutes and record the 
 */15 * * * * /usr/local/bin/python [path]/ddns.py > [path]/ddns.log 2>[path]/ddns.log
 ```
 
+### Move the task to router
+
+The script here is a little bit cumbersome for two reasons: first, the IP address should be obtained directly; second, why not using curl?
+
+I have my home router flashed a custom firmware based on OpenWRT. It can be logged in via telnet. The public IP address can be inquired by **ifconfig** under interface ppp0. Hence, one line shell script by curl can replace all the cumbersome Python script.
+
+```
+curl https://dynamicdns.park-your-domain.com/update\?host\=home\&domain\=[YOUR DOMAIN]\&password\=[password]\&ip\=$(/sbin/ifconfig ppp0 | sed -n 's/.*inet addr:\([^ ]*\).*/\1/p')
+```
+
+Note the symbols escapes. Backslash('\') must be used to escape the special symbols in shell script. Adding this to crontab will do the job.
+
+### Cron erased after router reboots
+
+Since the root home folder is under /tmp in the router's file system, the crontab will be cleaned every time the router reboots.
+
+Fortunately, there's a system-wide script that runs when wan starts. Adding a command into wan-start script to add the above cron job. In my router, the wan-start script is located at:
+> /jffs/scripts/wan-start
