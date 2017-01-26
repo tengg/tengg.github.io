@@ -5,7 +5,7 @@ permalink: about
 ---
 
 ## Who am I?
-I'm a professional software engineer. I like everything about network, programming and hacking. I built this site to keep track on things that I actually took time to research on. 
+My name is Teng Ge. I'm currently a software engineer at Nokia Networks. This blog is mostly my personal interests, which focused on programming and algorithms. I would like to note it down when some interesting problem comes to me.
 
 Python is my favorite tool. I'll be using Python3 for algorithms demonstration or any techniques that requires scripting.
 
