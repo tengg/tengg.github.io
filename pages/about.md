@@ -10,7 +10,8 @@ My name is Teng Ge. I'm currently a software engineer at Nokia Networks. This bl
 Python is my favorite tool. I'll be using Python3 for algorithms demonstration or any techniques that requires scripting.
 
 ## How is this site built?
-There are two parts. The dynamic site (with backend) are hosted on [Digital Ocean (affiliate link)](https://m.do.co/c/53921fec6121). I also host a number of other applications on it. Their IaaS is fantastic.
+There are two parts. The dynamic site (with backend) are hosted on [Linode (affiliate link)](https://www.linode.com/?r=49bc1f4895b700c0b62446b4849af1eeefcda114
+). I also host a number of other applications on it. Their IaaS is fantastic.
 
 The static part of this site is built based on [Github Pages](https://pages.github.com/). The codes are stored as a Github repository and automatically presented as pages.
 
