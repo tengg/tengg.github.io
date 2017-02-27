@@ -8,6 +8,7 @@ layout: default
   <span class="post-tags">{% for tag in page.tags %}{% if forloop.first %}<i class="fa fa-tags" title="page tags"></i>{% endif %} <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</span>
   {{ content }}
 </div>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 <div class="related">
   <h2>Related Posts</h2>
